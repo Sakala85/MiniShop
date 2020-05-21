@@ -1,0 +1,210 @@
+/*________________________________________Header_________________________________*/
+.header_ul {
+  list-style-type: none;
+  margin-top: -0.8em;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #335;
+  position: fixed;
+  height: 3em;
+  float: left;
+  z-index: 2;
+}
+.header_li {
+  float: right;
+}
+.header_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+.header_ret{
+  margin-left: 3em;
+  float: left;
+}
+.header_li a:hover {
+  background-color: #111;
+}
+/*_____________________________________Menu____________________________________*/
+.sidenav {
+  height: 100%;
+  width: 12em;
+  top: 0;
+  left: 0;
+  background-color: #335;
+  padding: 22px 16px;
+  position: fixed;
+  float: left;
+  z-index: 1;
+
+}
+.sidenav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.sidenav a:hover {
+  background-color: #111;
+}
+.menu_title{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+/*______________________________________Boutique_________________________________________  */
+.group_item{
+  margin-left: 14em;
+}
+.item_existant{
+  width: 16em;
+  height: 22em;
+  background-color: #335;
+  color: white;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-left: 2em;
+  border-radius: 4px;
+  margin-bottom: 2em;
+  font-size: 12;
+}
+.item_img{
+  width: 75px;
+  height: 100px;
+  display: block;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu_title{
+  border: 3px solid #894440;
+  border-radius: 3px;
+}
+.bas_panier{
+  width: 25em;
+  height: 8em;
+  display: block;
+  clear: left;
+  margin-bottom: 3em;
+  background-color: #335;
+  border-radius: 4px;
+  float: left;
+}
+.button_art{
+  color: #335;
+  width : 3em;
+  margin-top: 0.2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*___________________________________________Footer___________________________________________*/
+footer{
+  background-color: #335;
+  width:100%;
+  display:block;
+  position:relative;
+  height: 1em;
+  bottom: 0;
+  text-align: right;
+  color: white;
+}
+body{
+  background-color: #894440;
+  font-family: Arial;
+}
+h1{
+  text-align: center;
+}
+.Error_Msg{
+  display: inline-block;
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 14em;
+}
+button{
+  color: #335;
+  width : 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+.group_item_vendu{
+	margin-left: 12em;
+}
+.item_vendu{
+	width: 25em;
+    float: left;
+    background-color: #335;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+	display: block;
+    color: white;
+    border-radius: 4px;
+}
+.Form_account{
+	width: 100%;
+	height: 10em;
+	bottom: 0;
+    float: left;
+    background-color: #335;
+    margin-left: 6em;
+    text-align: center;
+	position: fixed;
+	display:block;
+    color: white;
+    border-radius: 20px;
+	margin-bottom: 2em;
+}
+
+.form_page{
+  width: 25em;
+  float: left;
+  background-color: #335;
+  margin-top: 5em;
+  margin-left: 25em;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+}
+.btnForm{
+  margin-top: 0.4em;
+  margin-bottom: 0.3em;
+}
+input{
+  width: 15em;
+  border-radius: 2px;
+}
+label{
+  display: block;
+  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  text-align: center;
+}
+.form_admin{
+	margin-left: 14em;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+    border: 1px solid black;
+}
